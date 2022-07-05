@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Fira sans", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgb(48, 48, 48);}
+    
+
+.block_body {
+    width: 600px;
+    height: 100%;
+    margin: 1rem;
+    border-radius: 15px;
+}
+
+.title_h1 {
+    padding-top: 1rem;
+    text-align: center;
+    color: rgb(201, 199, 199);
+    margin-bottom:10px;
+}
+
+.form_input {
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.input_text {
+    border: 0;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+.add_button {
+    color:rgb(215, 213, 213);
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    background-color: grey;
+}
+.add_button:hover,.add_button:focus,.add_button:active{
+    background-color: rgb(94, 94, 94);
+}
+
+.title_h2_lists {
+    margin: 1rem;
+    padding: 2rem;
+    color:rgb(201, 199, 199);
+}
+.out_list{
+    color: rgb(205, 221, 221);
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    border-style:groove;
+    border-radius: 5px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.change_list ,.delete_list{
+    color: rgb(215, 213, 213);
+        font-size: 15px;
+        border: 0;
+        border-radius: 5px;
+        background-color: grey;
+}
+.change_list:hover,.change_list:active,.change_list:focus{
+background-color: rgb(94, 94, 94);
+}
+.delete_list:hover,.delete_list:active,.delete_list:focus{
+    background-color: rgb(94, 94, 94);
+}
+.list_title{
+    border: 0;
+    background: 0;
+    outline: 0;
+    width: 65%;
+    font-size: 15px;
+    color:azure
+}
